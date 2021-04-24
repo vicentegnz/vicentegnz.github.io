@@ -206,7 +206,7 @@ ul.why-me li{
 	padding: 5% 0;
 	text-align: center;
 }
-.contacto{
+.contact{
 	background-image: url(../img/buzon.jpeg);
 }
 
@@ -586,21 +586,21 @@ img {
 .proyectos{
 	padding: 3%  0 4% 0;
 }
-.motivaciones{
+.hobbies{
 	padding: 3%  0 8% 0;
 	text-align: center;
 	background: #222222;
 }
-.motivaciones .innerTitle  h1{
+.hobbies .innerTitle  h1{
 	color: white;
 }
-.motivaciones .innerTitle  p{
+.hobbies .innerTitle  p{
 	color: white;
 }
-.contacto .innerTitle h1{
+.contact .innerTitle h1{
 	color: white;
 }
-.contacto .innerTitle p{
+.contact .innerTitle p{
 	color: white;
 }
 .container-images{
