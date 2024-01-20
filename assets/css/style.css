@@ -644,20 +644,30 @@ img {
     padding: 3% 0 4% 0;
 }
 
-.hobbies {
+.blogs {
     padding: 3% 0 8% 0;
     text-align: center;
     background: #222222;
 }
 
-.hobbies .innerTitle h1 {
+.container-blogs {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.blogs .innerTitle h1 {
     color: white;
 }
 
-.hobbies .innerTitle p {
+.blogs .innerTitle p {
     color: white;
 }
-
+.blogs ul {
+    list-style-type: none;
+    font-size: 1.5em;
+}
 .contact .innerTitle h1 {
     color: white;
 }
