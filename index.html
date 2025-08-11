@@ -72,11 +72,34 @@
                     </div>
                 </div>
                 <div class="hero-image">
+                    <!-- Animated Wave Background -->
+                    <div class="wave-container">
+                        <svg class="wave-svg" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Primary flowing wave -->
+                            <path class="wave-path wave-1" d="M100,300 Q200,100 400,200 T700,300 Q600,400 400,350 T100,300" 
+                                  fill="none" stroke="#3b82f6" stroke-width="3" opacity="0.8"/>
+                            
+                            <!-- Secondary wave -->
+                            <path class="wave-path wave-2" d="M150,250 Q300,150 500,250 T750,350 Q650,450 450,400 T150,250" 
+                                  fill="none" stroke="#1e40af" stroke-width="2" opacity="0.6"/>
+                            
+                            <!-- Tertiary wave -->
+                            <path class="wave-path wave-3" d="M50,350 Q250,200 450,300 T800,400 Q600,500 350,450 T50,350" 
+                                  fill="none" stroke="#0ea5e9" stroke-width="2" opacity="0.7"/>
+                            
+                            <!-- Additional flowing elements -->
+                            <path class="wave-path wave-4" d="M200,180 Q400,80 600,180 T900,280 Q700,380 500,330 T200,180" 
+                                  fill="none" stroke="#60a5fa" stroke-width="1.5" opacity="0.5"/>
+                        </svg>
+                    </div>
                     <img src="assets/img/profile.jpg" alt="Vicente González - Software Engineer">
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Section Divider -->
+    <div class="divider"><span><i class="fa fa-code"></i></span></div>
 
     <!-- About Section -->
     <section id="about" class="section about">
@@ -88,6 +111,9 @@
                 </p>
             </div>
             <div class="about-content">
+                <div class="about-image">
+                    <img src="https://vicentegnz.github.io/assets/img/informatico_heroe.png" alt="Software Engineer Hero" class="about-hero-img">
+                </div>
                 <div class="about-text">
                     <p>
                         I am a dedicated software engineer with extensive experience in backend development, 
@@ -114,6 +140,8 @@
         </div>
     </section>
 
+    <!-- Section Divider -->
+    <div class="divider"><span><i class="fa fa-code"></i></span></div>
 
     <!-- Education Section -->
     <section id="education" class="section education">
@@ -173,6 +201,8 @@
         </div>
     </section>
 
+    <!-- Section Divider -->
+    <div class="divider"><span><i class="fa fa-code"></i></span></div>
 
     <!-- Skills Section -->
     <section id="skills" class="section skills">
@@ -231,6 +261,9 @@
             </div>
         </div>
     </section>
+
+    <!-- Section Divider -->
+    <div class="divider"><span><i class="fa fa-code"></i></span></div>
 
     <!-- Experience Section -->
     <section id="experience" class="section experience">
@@ -309,6 +342,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="section contact">
